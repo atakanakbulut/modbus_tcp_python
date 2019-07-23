@@ -15,7 +15,7 @@ import datetime
 
 THIS_FILE = "__modbus.py__"
 
-class ModbusClient:
+class modbus:
     def __init__(self, host=None, port=None, unit_id=None, timeout=None,
                  debug=None, auto_open=None):
         # object vars

@@ -1,5 +1,5 @@
 
-from modbus.modbus import ModbusClient
+from modbus.modbus import modbus
 import time
 import datetime
 
@@ -19,3 +19,5 @@ while True:
         if regs:
             print("Received data #  "+str(regs))
     time.sleep(1)
+
+
